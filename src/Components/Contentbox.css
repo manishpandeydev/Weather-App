@@ -1,0 +1,61 @@
+
+.image-box{
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+
+}
+img{
+  width: inherit;
+  height: inherit;
+}
+
+ul{
+  list-style: none;
+
+
+}
+.data{
+  display: flex;
+
+
+}
+li{
+box-shadow: 0rem 1rem 2rem rgb(54, 50, 50);
+background-color: white;
+text-align: center;
+border-radius: 0.8rem;
+
+
+}
+
+.left{
+  width: 14rem;
+  height: fit-content;
+}
+h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+  font-family: cursive;
+}
+
+.right
+{
+  width:14rem;
+  height: fit-content;
+margin-right: 1rem;
+
+}
+#cloud-image:hover{
+  box-shadow: 0rem 0rem 4rem rgb(255, 255, 255);
+
+
+}
+li:hover{
+  cursor: pointer;
+  box-shadow: 0rem 1rem 4rem rgb(163, 160, 160);
+}
