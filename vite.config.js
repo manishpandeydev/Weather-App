@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:"/Weather-App"/,
   plugins: [react()],
-  theme: jekyll-theme-THEME-NAME
+  theme: jekyll-theme-THEME-NAME,
+  
 })
